@@ -355,6 +355,7 @@
                         android:text="Jn.Android Developer"
                         android:textSize="@dimen/_10ssp"
                         android:layout_gravity="center"
+                        android:layout_margin="@dimen/_3ssp"
                         android:textStyle="bold"
                         android:gravity="center"/>
                     <TextView
@@ -374,24 +375,46 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_marginTop="@dimen/_10ssp">
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Profile Completeness"
-                        android:textSize="@dimen/_12ssp"
-                        android:layout_marginLeft="@dimen/_3ssp"/>
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Profile Cpmpletencess"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_12ssp"
+                            android:layout_marginLeft="@dimen/_3ssp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="end"
+                            android:gravity="end">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0%"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:textSize="@dimen/_13ssp"
+                                android:layout_marginRight="@dimen/_10ssp"/>
+                        </LinearLayout>
+                    </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_23ssp"
-                        android:background="@drawable/shape"
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:layout_marginTop="@dimen/_5ssp"
                         android:orientation="vertical">
-                        <androidx.appcompat.widget.AppCompatSpinner
+                        <ProgressBar
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:entries="@array/Comapny_Type"/>
+                            android:layout_height="@dimen/_15ssp"
+                        style="@style/CustomProgressBar"/>
+
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout

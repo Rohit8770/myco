@@ -8,4 +8,12 @@
 
     </string-array>
 
+    <style name="CustomProgressBar" parent="@style/Base.Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/custom_progress_bar</item>
+    </style>
+
+
+
+
 </resources>
