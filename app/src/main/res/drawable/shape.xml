@@ -3,5 +3,5 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
     <corners android:radius="8dp"/> <!-- Adjust the radius to control the corner roundness -->
-    <stroke android:width="2dp" android:color="#808080"/> <!-- Adjust the width and color of the border -->
+    <stroke android:width="1sp" android:color="@color/lightGrey"/> <!-- Adjust the width and color of the border -->
 </shape>

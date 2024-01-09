@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">profileApplication</string>
+
+
+    <string-array name="Comapny_Type">
+        <item>Communities Heritage Pvt.Ltd</item>
+        <item>CHPL Trainee</item>
+
+    </string-array>
+
 </resources>

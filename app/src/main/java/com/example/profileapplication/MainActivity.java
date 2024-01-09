@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     TextView tv;
     LinearLayout layout;
     ImageView btn_menu;
-    RecyclerView rcvData;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         tv = findViewById(R.id.tv);
         layout = findViewById(R.id.layout);
         btn_menu = findViewById(R.id.btn_menu);
-        rcvData = findViewById(R.id.rcvData);
 
         layout.setVisibility(View.GONE);
         tv.setVisibility(View.GONE);
